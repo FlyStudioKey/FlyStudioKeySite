@@ -1,6 +1,6 @@
 <script setup>
 defineProps({
-  isFootD: {
+  is_foot_d: {
     type: Boolean,
     default: false
   }
@@ -8,7 +8,7 @@ defineProps({
 </script>
 
 <template>
-    <footer v-if="isFootD" class="footerD">
+    <footer v-if="is_foot_d" class="footerD">
       滇 ICP 备 2022000802 号 - 2
       &copy; 2023 FlyStudioKey. All Rights Reserved.
     </footer>
