@@ -23,6 +23,10 @@ import Footer from "@/components/Footer.vue";
     &emsp;&emsp;Xiao_XiangGua
     <br />
     &emsp;&emsp;WeiWeiCool
+    <h2>联系我们</h2>
+    <p class="fs-4">&emsp;&emsp;如果您有任何疑问，请联系我们，我们将在第一时间给予您答复！
+    <br />
+    Emil:fsk@mail.flystudiokey.cn</p>
     </p>' />
     <Footer is_foot_d="is_foot_d" />
   </main>
