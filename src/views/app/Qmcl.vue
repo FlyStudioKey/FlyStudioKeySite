@@ -24,7 +24,10 @@ document.title = "QMCL启动器";
                     &emsp;&emsp;鉴于目前国内网络环境堪忧(莫名其妙就被ddos)，加之FlyStudioKey开发者均为学生，无力承当高额的防护费用，
                     因此，QMCL启动器Windows版本可在本项目的
                     <a href="https://github.com/weiwei-cool/QMCL">github</a>
-                    上下载，其它版本，如:Linux、MacOS，请自行编译源码。</p>
+                    上下载，其它版本，如:Linux、MacOS，请自行编译源码。
+                    您下载、编译、使用本软件，即代表您同意
+                    <a href="/app/eula" target="_blank">最终用户许可协议(EULA)</a>
+                    </p>
                     <h2>开源</h2>
                     <p class="fs-4">&emsp;&emsp;QMCL启动器基于MIT协议在
                     <a href="https://github.com/weiwei-cool/QMCL">github</a>上开源，但值得注意的是，
