@@ -1,6 +1,7 @@
 <script setup>
 import Navbar from "@/components/Navbar.vue";
 import Footer from "@/components/Footer.vue";
+document.title = "Homepage";
 </script>
 
 <template>

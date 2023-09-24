@@ -7,6 +7,12 @@
 
 <script>
 export default {
-  name: 'App'
+  name: 'App',
+  data() {
+    return {
+      title: '默认页面标题'
+    };
+  },
+  // ...
 }
 </script>
