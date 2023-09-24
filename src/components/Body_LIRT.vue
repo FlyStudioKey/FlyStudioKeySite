@@ -8,7 +8,11 @@ defineProps({
     type: String,
     required: true
   },
-  toUrl: {
+  to_url: {
+    type: String,
+    required: true
+  },
+  margin_left: {
     type: String,
     required: true
   }
@@ -18,13 +22,13 @@ defineProps({
 <template>
   <div class="container">
     <div class="row justify-content-center align-items-center">
-      <div class="col-lg-6 col-md-12 col-sm-12 content">
+      <div class="col-lg-6 col-md-12 col-sm-12 content" v-bind:style="{ 'margin-left': margin_left }">
         <img v-bind:src="img_url" alt="Img" class="img-fluid">
       </div>
-      <div class="col-lg-6 col-md-12 col-sm-12 content">
+      <div class="col-lg-6 col-md-12 col-sm-12 content" v-bind:style="{ 'margin-left': margin_left }">
         <p>
           <span v-html="message"></span>
-          <router-link v-bind:to="toUrl" class="btn btn-primary">详细</router-link>
+          <router-link v-bind:to="to_url" class="btn btn-primary">详细</router-link>
         </p>
       </div>
     </div>
@@ -33,7 +37,6 @@ defineProps({
 
 <style scoped>
 .content {
-  margin-left: -12.5%;
   text-align: center;
 }
 

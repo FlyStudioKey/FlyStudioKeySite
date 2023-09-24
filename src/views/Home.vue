@@ -3,7 +3,7 @@ import Navbar from "@/components/Navbar.vue";
 import Body_LIRT from "@/components/Body_LIRT.vue";
 import BodyM from "@/components/BodyM.vue";
 import Footer from "@/components/Footer.vue";
-document.title = "Homepage";
+document.title = "FlyStudioKey";
 </script>
 
 <template>
@@ -24,7 +24,8 @@ document.title = "Homepage";
     <Body_LIRT message="<br /><h4>Quickly Minecraft Launcher(qmcl)启动器</h4>
                         <p>新一代跨平台启动器，项目大重构！</p>"
                img_url="res/icon.png"
-               to-url="/app/qmcl"/>
-    <Footer is-foot-d="is-foot-d" />
+               to_url="/app/qmcl"
+               margin_left="-12.5%"/>
+    <Footer is_foot_d="is_foot_d" />
   </main>
 </template>
