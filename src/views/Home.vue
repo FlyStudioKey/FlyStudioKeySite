@@ -33,6 +33,12 @@ const md = new MobileDetect(navigator.userAgent);
                img_url="res/icon.png"
                to_url="/app/qmcl"
                margin_left="-12.5%"/>
+    <br /><br /><br /><br />
+    <BodyM message='<h2>赞助我们</h2>
+                    <div style="text-align: center;">
+                    <iframe src="https://afdian.net/leaflet?slug=Q_MCL" width="640" scrolling="no" height="200" frameborder="0">
+                    </iframe></div>
+                   ' />
     <Footer v-if="md.mobile()" />
     <Footer v-else is_foot_d="is_foot_d" />
   </main>
