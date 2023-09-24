@@ -27,7 +27,7 @@ const md = new MobileDetect(navigator.userAgent);
                         <p>新一代跨平台启动器，项目大重构！</p>"
                img_url="res/icon.png"
                to_url="/app/qmcl"
-               margin_left="1%"/>
+               margin_left=""/>
     <Body_LIRT v-else message="<br /><h4>Quickly Minecraft Launcher(qmcl)启动器</h4>
                         <p>新一代跨平台启动器，项目大重构！</p>"
                img_url="res/icon.png"
