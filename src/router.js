@@ -3,6 +3,7 @@ import { createRouter, createWebHistory } from 'vue-router';
 import Home from './views/Home.vue';
 import About from './views/About.vue';
 import Feedback from './views/Feedback.vue';
+import Qmcl from './views/app/Qmcl.vue';
 
 const routes = [
     {
@@ -17,6 +18,10 @@ const routes = [
         path: '/feedback',
         component: Feedback
     },
+    {
+        path: '/app/qmcl',
+        component: Qmcl
+    }
 ];
 
 const router = createRouter({
