@@ -8,6 +8,7 @@ document.title = "QMCL启动器";
 <template>
   <div id="app">
     <Navbar />
+    <router-view />
   </div>
   <main>
     <br />
