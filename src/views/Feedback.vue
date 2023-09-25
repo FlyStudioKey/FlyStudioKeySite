@@ -2,6 +2,8 @@
 import Navbar from "@/components/Navbar.vue";
 import BodyM from "@/components/BodyM.vue";
 import Footer from "@/components/Footer.vue";
+import MobileDetect from 'mobile-detect';
+const md = new MobileDetect(navigator.userAgent);
 </script>
 
 <template>
@@ -27,6 +29,7 @@ import Footer from "@/components/Footer.vue";
     所以，报告问题时不要丢下一句「启动器出错了」、「无法启动游戏」就跑，
     在没有日志、报错截图等信息的辅助下，我们 <a style="font-weight: bold;">不可能</a> 知道网线对面的您遇到了什么。
     </p>' />
-    <Footer is_foot_d="is_foot_d" />
+    <Footer v-if="md.mobile()" />
+    <Footer v-else is_foot_d="is_foot_d" />
   </main>
 </template>

@@ -2,6 +2,8 @@
 import Navbar from "@/components/Navbar.vue";
 import BodyM from "@/components/BodyM.vue";
 import Footer from "@/components/Footer.vue";
+import MobileDetect from 'mobile-detect';
+const md = new MobileDetect(navigator.userAgent);
 </script>
 
 <template>
