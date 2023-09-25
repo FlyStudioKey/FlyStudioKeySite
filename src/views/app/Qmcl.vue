@@ -11,6 +11,7 @@ document.title = "QMCL启动器";
   </div>
   <main>
     <br />
+    <router-link to="/app/eula" class="nav-link" target="_blank">最终用户许可协议(EULA)</router-link>
     <BodyM message='<h1>Quickly Minecraft Launcher QMCL启动器</h1>
                     <h2>介绍</h2>
                     <p class="fs-4">&emsp;&emsp;QMCL 是一个基于 Tauri 和 Vue 的开源项目，
