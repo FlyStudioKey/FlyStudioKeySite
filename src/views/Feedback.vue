@@ -14,7 +14,7 @@ import Footer from "@/components/Footer.vue";
     <h1>反馈问题</h1>
     <h2>程序BUG</h2>
     <p class="fs-4">&emsp;&emsp;如果您在使用途中遇到了BUG，您可以到本项目的
-    <a href="https://github.com/weiwei-cool/QMCL">github</a>
+    <a href="https://github.com/weiwei-cool/QMCL" target="_blank">github</a>
     进行提交，我们会尽快解决您的问题！
     </p>
     <h2>其他问题</h2>

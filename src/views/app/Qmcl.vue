@@ -12,7 +12,6 @@ document.title = "QMCL启动器";
   </div>
   <main>
     <br />
-    <router-link to="/app/eula" class="nav-link">最终用户许可协议(EULA)</router-link>
     <BodyM message='<h1>Quickly Minecraft Launcher QMCL启动器</h1>
                     <h2>介绍</h2>
                     <p class="fs-4">&emsp;&emsp;QMCL 是一个基于 Tauri 和 Vue 的开源项目，
@@ -25,14 +24,14 @@ document.title = "QMCL启动器";
                     <p class="fs-4">
                     &emsp;&emsp;鉴于目前国内网络环境堪忧(莫名其妙就被ddos)，加之FlyStudioKey开发者均为学生，无力承当高额的防护费用，
                     因此，QMCL启动器Windows版本可在本项目的
-                    <a href="https://github.com/weiwei-cool/QMCL">github</a>
+                    <a href="https://github.com/weiwei-cool/QMCL" target="_blank">github</a>
                     上下载，其它版本，如:Linux、MacOS，请自行编译源码。
                     您下载、编译、使用本软件，即代表您同意
-                    <a href="/app/eula">最终用户许可协议(EULA)</a>
+                    <a href="#/app/eula" target="_blank">最终用户许可协议(EULA)</a>
                     </p>
                     <h2>开源</h2>
                     <p class="fs-4">&emsp;&emsp;QMCL启动器基于MIT协议在
-                    <a href="https://github.com/weiwei-cool/QMCL">github</a>上开源，但值得注意的是，
+                    <a href="https://github.com/weiwei-cool/QMCL" target="_blank">github</a>上开源，但值得注意的是，
                     你可以以MIT协议使用QMCL的源代码，但这不包括CMCL，使用CMCL的源代码时必须遵守CMCL的开源协议和相关的附加条款。</p>
                     <h2>免责申明</h2>
                     <p class="fs-4">
