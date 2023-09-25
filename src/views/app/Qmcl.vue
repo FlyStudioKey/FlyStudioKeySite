@@ -12,7 +12,7 @@ document.title = "QMCL启动器";
   </div>
   <main>
     <br />
-    <router-link to="/app/eula" class="nav-link" target="_blank">最终用户许可协议(EULA)</router-link>
+    <router-link to="/app/eula" class="nav-link">最终用户许可协议(EULA)</router-link>
     <BodyM message='<h1>Quickly Minecraft Launcher QMCL启动器</h1>
                     <h2>介绍</h2>
                     <p class="fs-4">&emsp;&emsp;QMCL 是一个基于 Tauri 和 Vue 的开源项目，
@@ -28,7 +28,7 @@ document.title = "QMCL启动器";
                     <a href="https://github.com/weiwei-cool/QMCL">github</a>
                     上下载，其它版本，如:Linux、MacOS，请自行编译源码。
                     您下载、编译、使用本软件，即代表您同意
-                    <a href="/app/eula" target="_blank">最终用户许可协议(EULA)</a>
+                    <a href="/app/eula">最终用户许可协议(EULA)</a>
                     </p>
                     <h2>开源</h2>
                     <p class="fs-4">&emsp;&emsp;QMCL启动器基于MIT协议在

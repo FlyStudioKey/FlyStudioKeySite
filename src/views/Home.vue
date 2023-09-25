@@ -33,7 +33,7 @@ const md = new MobileDetect(navigator.userAgent);
                img_url="res/icon.png"
                to_url="/app/qmcl"
                margin_left="-12.5%"/>
-    <router-link to="/app/eula" class="nav-link" target="_blank">最终用户许可协议(EULA)</router-link>
+    <router-link to="/app/eula" class="nav-link">最终用户许可协议(EULA)</router-link>
     <br /><br /><br /><br />
     <BodyM message='<h2>赞助我们</h2>
                     <div style="text-align: center;">
