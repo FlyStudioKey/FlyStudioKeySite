@@ -27,7 +27,7 @@ document.title = "QMCL启动器";
                     <a href="https://github.com/weiwei-cool/QMCL" target="_blank">github</a>
                     上下载，其它版本，如:Linux、MacOS，请自行编译源码。
                     您下载、编译、使用本软件，即代表您同意
-                    <a href="#/app/eula" target="_blank">最终用户许可协议(EULA)</a>
+                    <a href="/app/eula" target="_blank">最终用户许可协议(EULA)</a>
                     </p>
                     <h2>开源</h2>
                     <p class="fs-4">&emsp;&emsp;QMCL启动器基于MIT协议在
