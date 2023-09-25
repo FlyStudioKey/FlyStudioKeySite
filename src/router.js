@@ -24,7 +24,7 @@ const routes = [
         component: Qmcl
     },
     {
-        path: '/app/eula',
+        path: '/eula',
         component: Eula
     }
 ];
