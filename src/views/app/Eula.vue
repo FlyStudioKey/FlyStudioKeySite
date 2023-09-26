@@ -86,7 +86,7 @@ import BodyM from "@/components/BodyM.vue";
                <p class="fs-4">
                如有任何问题或疑虑，请联系FlyStudioKey：
                <br />
-               Emil:fsk@mail.flystudiokey.cn
+               Email:fsk@mail.flystudiokey.cn
                </p>
                ' />
 </template>
