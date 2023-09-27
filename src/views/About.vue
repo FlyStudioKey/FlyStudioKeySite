@@ -27,7 +27,7 @@ const md = new MobileDetect(navigator.userAgent);
     &emsp;&emsp;WeiWeiCool
     </p>' />
     <BodyM message='
-    <p class="fs-4">感谢netlify的提供网络服务 <a href="https://app.netlify.com/sites/poetic-cranachan-52ac6c/deploys">
+    <p class="fs-4">感谢netlify提供网络服务 <a href="https://app.netlify.com/sites/poetic-cranachan-52ac6c/deploys">
       <img src="https://api.netlify.com/api/v1/badges/248bb307-1979-4da6-a76d-dda24140e750/deploy-status" alt="netlify">
     </a></p>' />
     <Footer is_foot_d="is_foot_d" />
