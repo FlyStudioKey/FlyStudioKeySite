@@ -3,7 +3,7 @@
 The open-source project on the FlyStudioKey website
 
 
-## Project Setup
+## Project Setup 
 
 ```sh
 npm install
