@@ -45,6 +45,9 @@ onMounted(async () => {
       <template v-else-if="message.type === 'br'">
         <br />
       </template>
+      <template v-else-if="message.type === 'html'">
+        <span v-html="message.msg"></span>
+      </template>
     </component>
   </div>
 </template>
