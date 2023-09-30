@@ -23,6 +23,7 @@
 
 .centered-content img {
   max-width: 100%;
-  height: 90%;
+  max-height: 90%;
+  height: auto;
 }
 </style>
