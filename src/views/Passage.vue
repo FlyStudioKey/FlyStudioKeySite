@@ -8,7 +8,6 @@ import router from "@/router";
 const route = useRoute();
 const psg_src = route.params.psg_src;
 const passageData = ref(null);
-const NF = false;
 
 onMounted(async () => {
   try {
@@ -21,15 +20,11 @@ onMounted(async () => {
     await router.push('/404');
   }
 });
-console.log(NF)
 </script>
 
 <template>
-  <div v-if="NF===true">
-    <img src="https://res.flystudiokey.cn/passage/pic/zwnr.png" alt="pic">
-  </div>
-  <div v-if="passageData !== null && NF===false" class="container">
-    <Navbar v-if="NF===false"/>
+  <Navbar />
+  <div v-if="passageData !== null" class="container">
     <component
         v-for="(message, index) in passageData.msg"
         :key="index"
