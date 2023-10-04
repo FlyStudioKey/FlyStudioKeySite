@@ -1,5 +1,5 @@
 <script setup>
-
+document.title = "FlyStudioKey飞屋软件技术-404未找到";
 </script>
 
 <template>

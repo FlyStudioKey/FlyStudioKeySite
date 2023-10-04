@@ -2,7 +2,7 @@
 import Navbar from "@/components/Navbar.vue";
 import BodyM from "@/components/BodyM.vue";
 import Footer from "@/components/Footer.vue";
-document.title = "QMCL启动器";
+document.title = "Quickly Minecraft Launcher启动器-QMCL启动器";
 </script>
 
 <template>

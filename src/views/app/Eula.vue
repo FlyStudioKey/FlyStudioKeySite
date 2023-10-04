@@ -1,6 +1,6 @@
 <script setup>
-document.title = "最终用户许可协议";
 import BodyM from "@/components/BodyM.vue";
+document.title = "QMCL启动器最终用户许可协议";
 </script>
 
 <template>
