@@ -45,15 +45,15 @@ const router = createRouter({
     routes
 });
 
-// router.beforeEach((to, from, next) => {
-//     // 检查要导航到的路由是否存在
-//     if (to.matched.length === 0) {
-//         // 如果路由不存在，重定向到 404 路由
-//         next({ name: 'NotFound' })
-//     } else {
-//         // 如果路由存在，继续导航
-//         next()
-//     }
-// })
+router.beforeEach((to, from, next) => {
+    // 检查要导航到的路由是否存在
+    if (to.matched.length === 0) {
+        // 如果路由不存在，重定向到 404 路由
+        next({ name: 'NotFound' })
+    } else {
+        // 如果路由存在，继续导航
+        next()
+    }
+})
 
 export default router;
