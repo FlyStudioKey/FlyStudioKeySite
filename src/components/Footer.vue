@@ -9,12 +9,12 @@ defineProps({
 
 <template>
     <footer v-if="is_foot_d" class="footerD">
-      滇 ICP 备 2022000802 号 - 2
+      <a href="https://beian.miit.gov.cn/">滇 ICP 备 2022000802 号 - 2</a>
       &copy; 2022-2023 FlyStudioKey. All Rights Reserved.
     </footer>
     <footer v-else class="footer">
-        滇 ICP 备 2022000802 号 - 2
-        &copy; 2022-2023 FlyStudioKey. All Rights Reserved.
+      <a href="https://beian.miit.gov.cn/">滇 ICP 备 2022000802 号 - 2</a>
+      &copy; 2022-2023 FlyStudioKey. All Rights Reserved.
     </footer>
 </template>
 
