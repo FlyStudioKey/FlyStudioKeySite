@@ -33,6 +33,16 @@ const md = new MobileDetect(navigator.userAgent);
                img_url="res/icon.png"
                to_url="/app/qmcl"
                margin_left="-12.5%"/>
+    <Body_LIRT v-if="md.mobile()" message="<br /><h4>FanQieNovelDownloadOnWeb 番茄小说下载器</h4>
+                        <p>新一代简单而功能强大的小说下载器。</p>"
+               img_url="res/fanqie.png"
+               to_url="/app/fanqie"
+               margin_left=""/>
+    <Body_LIRT v-else message="<br /><h4>FanQieNovelDownloadOnWeb 番茄小说下载器</h4>
+                        <p>新一代简单而功能强大的小说下载器。</p>"
+               img_url="res/fanqie.png"
+               to_url="/app/fanqie"
+               margin_left="-12.5%"/>
     <br /><br /><br /><br />
     <BodyM v-if="md.mobile()" message='<h2>赞助我们</h2>
                     <div style="text-align: center;">

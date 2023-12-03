@@ -3,8 +3,10 @@ import {createRouter, createWebHistory} from 'vue-router';
 import Home from '@/views/Home.vue';
 import About from '@/views/About.vue';
 import Feedback from '@/views/Feedback.vue';
-import Qmcl from '@/views/app/Qmcl.vue';
-import Eula from "@/views/app/Eula.vue";
+import Qmcl from '@/views/app/qmcl/Qmcl.vue';
+import Eula from "@/views/app/qmcl/Eula.vue";
+import Fanqie from "@/views/app/fanqie/Fanqie.vue";
+import Eula_fanqie from "@/views/app/fanqie/Eula.vue";
 import Passage from "@/views/Passage.vue";
 import NotFound from "@/views/NotFound.vue";
 
@@ -26,8 +28,16 @@ const routes = [
         component: Qmcl
     },
     {
-        path: '/app/eula',
+        path: '/app/qmcl/eula',
         component: Eula
+    },
+    {
+        path: '/app/fanqie',
+        component: Fanqie
+    },
+    {
+        path: '/app/fanqie/eula',
+        component: Eula_fanqie
     },
     {
         path: '/passage/:psg_src',
