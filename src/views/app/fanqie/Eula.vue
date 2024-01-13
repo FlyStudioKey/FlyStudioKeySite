@@ -98,7 +98,7 @@ document.title = "番茄小说下载器最终用户许可协议";
                <p class="fs-4">
                如有任何问题或疑虑，请联系FlyStudioKey：
                <br />
-               Email:fsk@mail.flystudiokey.cn
+               Email:main@mail.flystudiokey.cn
                </p>
                ' />
 </template>

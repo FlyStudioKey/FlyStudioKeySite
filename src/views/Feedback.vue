@@ -23,7 +23,7 @@ const md = new MobileDetect(navigator.userAgent);
     <h2>其他问题</h2>
     <p class="fs-4">&emsp;&emsp;如果您在使用途中出现任何问题，您还可以请联系我们，我们将在第一时间给予您答复！
     <br />
-    &emsp;&emsp;Email:fsk@mail.flystudiokey.cn</p>
+    &emsp;&emsp;Email:main@mail.flystudiokey.cn</p>
     <h2>注意事项</h2>
     <p class="fs-4">
     &emsp;&emsp;我们不是神！我们是无法通过您的只言片语来定位问题的！
