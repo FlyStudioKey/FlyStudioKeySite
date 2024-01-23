@@ -1,9 +1,5 @@
 <script setup>
 defineProps({
-  message: {
-    type: String,
-    required: true
-  },
   align: {
     type: String,
     default: ''
@@ -14,7 +10,7 @@ defineProps({
 <template>
   <div class="container">
     <div class="content" v-bind:style="{ textAlign:align }">
-      <span v-html="message"></span>
+      <slot></slot>
     </div>
   </div>
 </template>

@@ -9,6 +9,7 @@ import Fanqie from "@/views/app/fanqie/Fanqie.vue";
 import Eula_fanqie from "@/views/app/fanqie/Eula.vue";
 import Passage from "@/views/Passage.vue";
 import NotFound from "@/views/NotFound.vue";
+import Tutorial from "@/views/app/fanqie/Tutorial.vue";
 
 const routes = [
     {
@@ -34,6 +35,10 @@ const routes = [
     {
         path: '/app/fanqie',
         component: Fanqie
+    },
+    {
+        path: '/app/fanqie/tutorial',
+        component: Tutorial
     },
     {
         path: '/app/fanqie/eula',
