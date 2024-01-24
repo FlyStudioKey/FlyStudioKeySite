@@ -37,9 +37,9 @@ import Footer from "@/components/Footer.vue";
         <a href="https://github.com/weiwei-cool/FanQieNovelDownloadOnWeb" target="_blank">github</a>
         上开源，
         此项目使用来自
-        <a href="https://github.com/xing-yv" target="_blank">@xing-yv</a>
+        <a href="https://github.com/shing-yu" target="_blank">@shing-yu</a>
         的
-        <a href="https://github.com/xing-yv/fanqie-novel-download" target="_blank">fanqie-novel-download</a>
+        <a href="https://github.com/shing-yu/fanqie-novel-download" target="_blank">fanqie-novel-download</a>
         的源代码。
       </p>
       <p class="fs-4">
@@ -57,7 +57,7 @@ import Footer from "@/components/Footer.vue";
       <h2>鸣谢</h2>
       <p class="fs-4">
         &emsp;&emsp;感谢源项目的作者
-        <a href="https://github.com/xing-yv" target="_blank">@xing-yv</a>
+        <a href="https://github.com/shing-yu" target="_blank">@shing-yu</a>
         对本项目开发的指导与支持！
       </p>
     </BodyM>
