@@ -4,7 +4,6 @@ import BodyM from "@/components/BodyM.vue";
 import Footer from "@/components/Footer.vue";
 import MobileDetect from 'mobile-detect';
 const md = new MobileDetect(navigator.userAgent);
-document.title = "FlyStudioKey飞屋软件技术-关于我们";
 </script>
 
 <template>

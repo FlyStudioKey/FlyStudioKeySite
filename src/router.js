@@ -83,7 +83,11 @@ const routes = [
     {
         path: '/404',
         name: 'NotFound',
-        component: NotFound
+        component: NotFound,
+        meta: {
+            title: '飞屋FSK-404页面',
+            description: '页面不存在，请检查网址是否正确。'
+        }
     }
 ];
 

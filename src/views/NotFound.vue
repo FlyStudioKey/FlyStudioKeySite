@@ -1,7 +1,3 @@
-<script setup>
-document.title = "FlyStudioKey飞屋软件技术-404未找到";
-</script>
-
 <template>
   <div class="container">
     <div class="centered-content">
