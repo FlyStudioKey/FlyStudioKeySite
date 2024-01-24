@@ -4,7 +4,6 @@ import Body_LIRT from "@/components/Body_LIRT.vue";
 import BodyM from "@/components/BodyM.vue";
 import Footer from "@/components/Footer.vue";
 import MobileDetect from 'mobile-detect';
-document.title = "FlyStudioKey飞屋软件技术首页";
 const md = new MobileDetect(navigator.userAgent);
 </script>
 

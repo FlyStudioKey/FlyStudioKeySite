@@ -3,7 +3,6 @@ import Navbar from "@/components/Navbar.vue";
 import BodyM from "@/components/BodyM.vue";
 import Footer from "@/components/Footer.vue";
 import MobileDetect from 'mobile-detect';
-document.title = "FlyStudioKey飞屋软件技术-问题反馈";
 const md = new MobileDetect(navigator.userAgent);
 </script>
 
