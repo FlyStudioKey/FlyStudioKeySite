@@ -98,7 +98,12 @@ router.beforeEach((to, from, next) => {
         // 如果路由不存在，重定向到 404 路由
         next({ name: 'NotFound' })
     } else {
-        // 如果路由存在，继续导航
+        document.title = to.meta.title || 'Default Title';
+
+        const descriptionMeta = document.querySelector('meta[name="description"]');
+        if (descriptionMeta) {
+            descriptionMeta.setAttribute('content', to.meta.description || 'Default Description');
+        }
         next()
     }
 })
