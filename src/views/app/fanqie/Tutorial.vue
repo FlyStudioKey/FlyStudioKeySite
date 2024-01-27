@@ -54,6 +54,9 @@ import Pic from "@/components/Pic.vue";
       <br />
       <br />
       <Paragraph>2.2.3.如图，在出现的窗口中点击复制，您就获得了链接。</Paragraph>
+      <Pic src="/res/tutorial4.png" />
+      <br />
+      <br />
       <Paragraph>但值得注意的是，您复制的内容的开头有该书的书名，您需要去除它后再将最后的链接填入URL中。</Paragraph>
       <h2>3.下载</h2>
       <br />
