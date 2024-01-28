@@ -28,7 +28,7 @@ const md = new MobileDetect(navigator.userAgent);
       </p>
     </BodyM>
     <BodyM>
-      <p class="fs-4">感谢netlify提供网络服务 <a href="https://app.netlify.com/sites/poetic-cranachan-52ac6c/deploys" target="_blank">
+      <p class="fs-4">感谢netlify提供网络服务 <a href="https://www.netlify.com/" target="_blank">
         <img src="https://api.netlify.com/api/v1/badges/248bb307-1979-4da6-a76d-dda24140e750/deploy-status" alt="netlify">
       </a></p>
     </BodyM>
