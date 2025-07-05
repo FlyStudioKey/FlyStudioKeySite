@@ -22,9 +22,9 @@ const md = new MobileDetect(navigator.userAgent);
       </p>
       <h2>成员(排名不分先后)</h2>
       <p class="fs-4">
-        &emsp;&emsp;Xiao_XiangGua
+        &emsp;&emsp;Xiao_XiangGua 香瓜
         <br />
-        &emsp;&emsp;WeiWeiCool
+        &emsp;&emsp;StelaHaveno 枕水忧云 <a href="https://www.6bug.org/">博客</a>
       </p>
     </BodyM>
     <BodyM>
